@@ -35,6 +35,9 @@ button:hover{
     height: 100px;
     /* width: 100px; */
 }
+.logo:hover{
+    cursor: pointer;
+}
 .nav-right{
     margin-right: 75px;
     display: flex;
@@ -61,7 +64,13 @@ button:hover{
     background-color: white;
     color: black;
 }
+#white:hover{
+    background-color: rgb(222, 222, 222);
+}
 #black{
     background-color: black;
     color: white;
+}
+#black:hover{
+    background-color: rgba(0, 0, 0, 0.676);
 }
