@@ -1,9 +1,11 @@
-/* body{
-    width: 100%;
-} */
+body{
+    margin: 0;
+}
 a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-size: 18px;
 }
 a:hover{
     color: darkgreen;
@@ -22,9 +24,21 @@ button:hover{
 }
 .nav-left{
     margin-left: 75px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nav-left a{
+    margin-left: 20px;
+}
+.logo{
+    height: 100px;
+    /* width: 100px; */
 }
 .nav-right{
     margin-right: 75px;
+    display: flex;
+    align-items: center;
 }
 .nav-right a{
     margin-right: 40px;
@@ -32,11 +46,16 @@ button:hover{
 .nav-right #white{
     margin-right: 20px;
 }
+.pin-img{
+    height: 25px;
+
+}
 .nav-button{
     border-radius: 50px;
     width: 75px;
     height: 30px;
     border: 1px solid black;
+    /* font-size: 18px; */
 }
 #white{
     background-color: white;
