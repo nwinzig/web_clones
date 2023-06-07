@@ -1,6 +1,16 @@
 /* body{
     width: 100%;
 } */
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darkgreen;
+}
+button:hover{
+    cursor: pointer;
+}
 .nav-Container{
     display: flex;
     flex-direction: row;
@@ -10,7 +20,18 @@
     /* border-bottom: 1px solid black; */
     box-shadow: 0px 2px 2px lightgrey;
 }
-
+.nav-left{
+    margin-left: 75px;
+}
+.nav-right{
+    margin-right: 75px;
+}
+.nav-right a{
+    margin-right: 40px;
+}
+.nav-right #white{
+    margin-right: 20px;
+}
 .nav-button{
     border-radius: 50px;
     width: 75px;
