@@ -141,3 +141,27 @@ button:hover{
     /* height: 75px; */
     padding:5px;
 }
+#order-now:hover{
+    background-color: #BAD570;
+    transition: background-color .5s;
+}
+#order-now2{
+    background-color: #D4E8E1;
+    color: #1E3832;
+    border: 1px solid #1E3832;
+    margin-top: 32px;
+    /* font-weight: 600; */
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    /* height: 75px; */
+    padding:5px;
+}
+#spot2-color{
+    background-color: #D4E8E1;
+    color: #1E3832;
+}
+#order-now2:hover{
+    transition: background-color .5s;
+    background-color: #C2D6D0;
+}
