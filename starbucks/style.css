@@ -76,11 +76,12 @@ button:hover{
 }
 
 .home-container{
-    margin-top: 32px;
+    /* margin-top: 32px; */
     display: flex;
     flex-direction: column;
 }
 .adventure-container{
+    margin-top: 32px;
     display: flex;
     flex-direction: row;
     height: 600px;
@@ -118,9 +119,25 @@ button:hover{
     transition: background-color .5s;
     background-color: #064E34;
 }
-#m-24{
+.m-24{
     margin-bottom: 24px;
     font-size: 50px;
     letter-spacing: 2px;
     text-align: center;
+}
+#spot1-color{
+    background-color: #CBE678;
+    color: #1E3832;
+}
+#order-now{
+    background-color: #CBE678;
+    color: #1E3832;
+    border: 1px solid #1E3832;
+    margin-top: 32px;
+    /* font-weight: 600; */
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    /* height: 75px; */
+    padding:5px;
 }
