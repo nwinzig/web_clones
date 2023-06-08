@@ -169,3 +169,60 @@ button:hover{
     background-color: #CBE87A;
     color: #1E3832;
 }
+#order-now3{
+    background-color: #CBE678;
+    color: #1E3832;
+    border: 1px solid #1E3832;
+    margin-top: 32px;
+    /* font-weight: 600; */
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    /* height: 75px; */
+    padding:5px;
+}
+#order-now3:hover{
+    background-color: #BAD570;
+    transition: background-color .5s;
+}
+.giftCard-container{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+#giftCard-color{
+    background-color: #D4E8E1;
+    color: #1E3832;
+}
+.giftCard-container img{
+    width: 50%;
+}
+.giftCard-container div{
+    font-size: 22px;
+    text-align: center;
+
+    /* margin-bottom: 24px; */
+}
+.gift-h{
+    margin-bottom: 24px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#join-now{
+    background-color: #D4E8E1;
+    color: #1E3832;
+    border: 1px solid #1E3832;
+    margin-top: 32px;
+    /* font-weight: 600; */
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    /* height: 75px; */
+    padding:5px;
+}
+#join-now:hover{
+    transition: background-color .5s;
+    background-color: #C2D6D0;
+}
