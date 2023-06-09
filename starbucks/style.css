@@ -329,7 +329,7 @@ ul li a:hover{
     height: 50px;
     display: flex;
     margin-left: 25px;
-    gap: 10px;
+    /* gap: 5px; */
     display: flex;
     /* justify-content: center; */
     /* align-content: center; */
@@ -358,6 +358,8 @@ ul li a:hover{
 }
 .footer-privacy a{
     padding-right: 15px;
+}
+.footer-privacy > a:not(:first-child){
     padding-left: 15px;
 }
 .footer-privacy a:hover{
@@ -365,6 +367,9 @@ ul li a:hover{
     color: black;
 }
 .footer-privacy > a:not(:last-child){
-
     border-right: 2px solid black;
+}
+.footer-copy{
+    margin-left: 25px;
+    color: #7A7A7A;
 }
