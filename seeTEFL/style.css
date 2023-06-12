@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato,sans-serif;
+    font-weight: 300;
+}
+.header-container{
+    min-height: 100vh;
+    background-image: url(assets/david-marcu-78A265wPiO4-unsplash-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 40px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.nav-content{
+    /* width: 100%; */
+    font-size: 18px;
+}
+.nav-content ul{
+    /* width: 100%; */
+    display: flex;
+    padding: 0.2em 0;
+    list-style: none;
+}
+.nav-content ul li:not(:last-child){
+    padding:0.1em 0 ;
+    margin: auto 0;
+}
+.nav-content ul li a{
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 17px;
+}
+.reg-button{
+    /* padding: 0.1em 0; */
+    display: flex;
+    justify-content: center;
+    background-color: #F68619;
+}
+.nav-content ul li a:hover{
+    text-decoration: underline;
+}
