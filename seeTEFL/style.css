@@ -64,3 +64,6 @@ body{
 .nav-content ul li a:hover{
     text-decoration: underline;
 }
+.headline-container{
+    color: white;
+}
