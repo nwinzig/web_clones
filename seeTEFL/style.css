@@ -86,3 +86,22 @@ body{
     margin-top: 15px;
     margin-bottom: 20px;
 }
+.space{
+    margin-bottom: 1.5em;
+}
+.join-button{
+    display: inline-block;
+    padding: .35em 1.8em;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #F68619;
+    border: 1px solid #F68619;
+    font-size: 24px;
+    font-weight: 500;
+}
+.join-button:hover{
+    background-color: #F79332;
+    transition: background-color .1s ease-in-out;
+}
