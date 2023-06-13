@@ -105,3 +105,30 @@ body{
     background-color: #F79332;
     transition: background-color .1s ease-in-out;
 }
+
+/* body */
+.body-content{
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.add-vertical-align{
+    text-align: center;
+}
+.body-content1{
+display: flex;
+justify-content: space-between;
+/* gap: 40px; */
+margin-bottom: 35px;
+height: 250px;
+}
+.content1-text{
+    width: 60%;
+}
+iframe{
+    display: border-box;
+    height: 100%;
+    /* --heightA: 100%; */
+    /* width: calc(var(--heightA)*2); */
+    width: 400px;
+}
