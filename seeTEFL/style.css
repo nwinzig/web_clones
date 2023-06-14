@@ -120,10 +120,18 @@ display: flex;
 justify-content: space-between;
 /* gap: 40px; */
 margin-bottom: 35px;
+margin-top: 25px;
 height: 250px;
 }
 .content1-text{
     width: 60%;
+    font-weight: 400;
+}
+.content1-text p{
+    margin-bottom: 1.5em;
+}
+.content1-text a{
+    font-weight: 800;
 }
 iframe{
     display: border-box;
