@@ -140,3 +140,42 @@ iframe{
     /* width: calc(var(--heightA)*2); */
     width: 400px;
 }
+
+.why-teach-container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.why-teach-container h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.why-teach-content{
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.why-teach-card{
+    margin-bottom: 35px;
+    /* width: 30%; */
+    word-wrap: break-word;
+}
+.why-teach-card img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 40%;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+}
+.why-teach-card p{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
