@@ -132,6 +132,7 @@ height: 250px;
 }
 .content1-text a{
     font-weight: 800;
+    font-size: 13px;
 }
 iframe{
     display: border-box;
@@ -178,4 +179,54 @@ iframe{
     text-align: center;
     line-height: 1.4;
     word-wrap: break-word;
+}
+
+.complete-tefl-container{
+
+}
+.complete-tefl-container h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.complete-tefl-container p{
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 1.5em;
+    line-height: 19.5px;
+    text-align: justify;
+}
+.best-tefl-link{
+    color:#df9652;
+    text-decoration: none;
+}
+.best-tefl-link:hover{
+    color: #E73C06;
+}
+.complete-tefl-container a{
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.best-course-container{
+    background-color: #F58820;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.best-course-container h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.best-course-container p{
+    margin-bottom: 1.5em;
+    font-weight: 400;
+}
+.best-course-container a{
+    font-weight: 800;
+    font-size: 13px;
 }
